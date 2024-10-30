@@ -41,7 +41,6 @@ public class Main {
         Random rand = new Random();
         int x = rand.nextInt(dictionary_words.length);
         final String need_word = dictionary_words[x].toUpperCase();
-        System.out.println(need_word);
         String hidden_word = new String();
         char choice_letter = ' ';
 
